@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide_Puzzle_Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <nav>
+            <div id="score">MOVES = 0</div>
+            <div class="time" id="sec">00</div>
+            <div class="time">:</div>
+            <div class="time" id="min">0</div>
+            <div class="time">TIME =&nbsp;</div>
+            <div id="start">
+                <span onclick="getNum()">START</span>
+            </div>
+        </nav>
+
+        <div id="box">
+            <table>
+                <tr>
+                    <td>
+                        <div id="1" class="numbers" onclick="change(1,0,0,1,1,0,0,1,1)">1</div>
+                    </td>
+                    <td>
+                        <div id="2" class="numbers" onclick="change(2,1,0,1,1,0,0,0,1)">2</div>
+                    </td>
+                    <td>
+                        <div id="3" class="numbers" onclick="change(3,1,0,0,1,1,0,0,1)">3</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="4" class="numbers" onclick="change(4,0,1,1,1,0,0,1,0)">4</div>
+                    </td>
+                    <td>
+                        <div id="5" class="numbers" onclick="change(5,1,1,1,1,0,0,0,0)">5</div>
+                    </td>
+                    <td>
+                        <div id="6" class="numbers" onclick="change(6,1,1,0,1,1,0,0,0)">6</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="7" class="numbers" onclick="change(7,0,1,1,0,0,1,1,0)">7</div>
+                    </td>
+                    <td>
+                        <div id="8" class="numbers" onclick="change(8,1,1,1,0,0,1,0,0)">8</div>
+                    </td>
+                    <td>
+                        <div id="9" class="numbers" onclick="change(9,1,1,0,0,1,1,0,0)">9</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <footer>
+            <h6>Made with love</h6>
+        </footer>
+    </div>
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
+
+</html>
